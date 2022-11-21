@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -12,6 +13,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Link
+          className="-ml-2 flex min-w-max cursor-pointer select-none items-center gap-2 p-2 text-gray-12 transition-opacity hover:opacity-70"
+          href="/blog"
+        >
+          Blog
+        </Link>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
