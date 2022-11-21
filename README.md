@@ -1,1 +1,1 @@
-# next-mdx-playground
+# Next MDX Playground
